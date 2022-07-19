@@ -1,5 +1,5 @@
 import BasicForm from './Components/Forms/BasicForm';
-import logo1 from './Images/instagram.png'
+import logo1 from './Images/u1.png'
 import './App.css';
 
 function App() {
@@ -14,9 +14,7 @@ function App() {
           </div>
           <div>
             <h2>Login Page</h2>
-              <div>
-                  <BasicForm/>
-              </div>
+                  <BasicForm/>  
           </div>
         </div>
       </div>       

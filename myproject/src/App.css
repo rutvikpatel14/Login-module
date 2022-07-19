@@ -25,14 +25,14 @@
   align-self: center;
   display: flex;
   height: 150px;
-  width: 250px;
+  width: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 input{
-  width: 300px;
+  width: 170px;
   height: 50px;
   border-radius: 60px;
   box-shadow: inset 0px 0px 25px 0px #888;
@@ -44,13 +44,13 @@ input{
 
 .name{
   padding-left: 70px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .second{
   padding-top: 20px;
 }
 .button-1 {
-  background-color: #4CAF50; /* Green */
+  background-color: green; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -61,4 +61,20 @@ input{
   border-radius: 60px;
   margin-top: 20px;
 }
+.border{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 270px;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: darkturquoise;
+  align-items: center;
 
+}
+.showdetails{
+  align-items: center;
+  border-color: #888;
+  border-radius: 60px;
+}

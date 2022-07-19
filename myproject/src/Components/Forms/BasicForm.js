@@ -39,8 +39,8 @@ import React, { useState } from 'react'
                 allEntry.map((curEle) =>{
                     return(
                         <div className='showdetails'>
-                            <p>{curEle.email}</p>
-                            <p>{curEle.password}</p>
+                            <p>Email :{curEle.email}</p>
+                            <p>Password :{curEle.password}</p>
                         </div>
                     )
 
